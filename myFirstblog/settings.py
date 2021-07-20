@@ -137,9 +137,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'murli4612@gmail.com'
-# EMAIL_HOST_PASSWORD = 'onvwbpqovsfbowlu'
-# EMAIL_HOST_PASSWORD = 'ewsvbyerygdplzil'
-EMAIL_HOST_PASSWORD = 'pzwvdwtogobqmwan'
+EMAIL_HOST_PASSWORD = '****************'
 
 MESSAGE_TAGS = {
     messages.ERROR:'danger'
