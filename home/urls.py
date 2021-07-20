@@ -1,0 +1,16 @@
+from django.contrib import admin
+from django.urls import path, include
+from home import views
+
+urlpatterns = [
+    path('', views.home, name="home"),
+    path('contact', views.contact, name="contact"),
+    path('about', views.about, name="about"),
+    path('search', views.search, name="search"),
+    path('signup', views.handleSignUp, name="handleSignUp"),
+    path('login', views.handeLogin, name="handleLogin"),
+    path('logout', views.handeLogout, name="handleLogout"),
+    # path('profile', views.home_view, name="profile"),
+    # path('profilev', views.home_view_from, name="profilev"),
+    path('mymurli', views.home_view_m, name="mymurli"),
+]

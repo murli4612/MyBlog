@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} Home{% endblock title %}
+
+{% block body %}
+MURLI
+<h5> SSSSSSSSS</h5>
+
+<h1>DDDDDD</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit">
+</form>
+
+ {% endblock %}
